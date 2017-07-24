@@ -1,0 +1,27 @@
+//Sec 5 Lecture 12: What is BEM?//
+
+BLOCK: independent reusable part of our design
+ELEMENT: Belongs to a block, dependent on the block, cant be used outside of the block it belongs to
+MODIFIER: Can be used on a block or an element, used to indicate change in the default state of an object.
+
+--CSS selectors should target elements directly with classes!
+--Identify patterns and create single responsibility blocks.
+
+//Sec 5 Lecture 13:
+
+REM: relative size to the root of the page, which is the html element.
+
+//Sec 6 Lecture 14: Browser sync
+npm install browser-sync --save-dev
+
+//Sec 7 lecture 17: mobile first design
+npm install postcss-mixins --save-dev
+
+This package makes working with media queries easier
+
+
+//Sec 8 Lecture 20: Creating reusable blocks//
+
+---by default, web browser treat elements as inline level elements. This means that the browser thinks
+that an image is SIMILAR TO A LINE OF TEXT. So it creates space because certain letters like 'g' hang over the line into the next element.
+---So telling en element to display as a block treats it as a div, like a rectangle that will align perfectly with its neighbors.
